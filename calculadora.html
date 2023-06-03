@@ -1,84 +1,7 @@
 <html>
 <head>
     <title>Calculadora</title>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: white;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.calculator {
-  background-color: pink;
-  border: 3px solid green;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.calculator input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  font-size: 20px;
-  border: none;
-  text-align: right;
-  background-color: white;
-}
-
-.calculator table {
-  margin-top: 20px;
-  width: 100%;
-}
-
-.calculator table td {
-  padding: 10px;
-}
-
-.calculator table input[type="button"] {
-  width: 100%;
-  padding: 15px;
-  font-size: 18px;
-  background-color: green;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.calculator table input[type="button"]:hover {
-  background-color: green;
-}
-</style>
-
-<script type="text/javascript">
-// Aquí va el código JavaScript de la calculadora
-// Funciones JavaScript de la calculadora
-function ingresarnumero(numero) {
-    document.Calculadora.txtboxnros.value += numero;
-  }
-
-  function ingresaoperacion(operador) {
-    document.Calculadora.txtboxnros.value += operador;
-  }
-
-  function raiz() {
-    var numero = document.Calculadora.txtboxnros.value;
-    document.Calculadora.txtboxnros.value = Math.sqrt(numero);
-  }
-
-  function limpiar() {
-    document.Calculadora.txtboxnros.value = "";
-  }
-
-  function resultado() {
-    var resultado = eval(document.Calculadora.txtboxnros.value);
-    document.Calculadora.txtboxnros.value = resultado;
-  }
-</script>
+    <link href="calculadora.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -117,5 +40,6 @@ function ingresarnumero(numero) {
             </table>
             </form>
             </center>
+            <script src="calculadora.js"></script>
             </body>
             </html>
