@@ -1,0 +1,26 @@
+.Estilos{
+    
+    margin: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.boton{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#parrafo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#Color{
+  background-color: aquamarine;
+}
+

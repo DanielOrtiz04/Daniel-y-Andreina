@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0c6c6;
+    color: #1b1515;
+  }
+  #container {
+    background-color: #f0cdcd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  #me {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #me img {
+    border-radius: 50%;
+    border: 5px solid #e09191;
+    box-shadow: 0px 0px 10px rgba(167, 99, 99, 0.1);
+  }
+  h1, h2 {
+    color: #e45882;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #f17bc0;
+    margin: 20px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #e23066;
+    color: #fa9c9c;
+  }
+  #habilidades li {
+    margin-bottom: 5px;
+  }
+  #Redes-sociales {
+    margin-bottom: 20px;
+  }
+  .inline {
+    display: inline;
+  }
+  a {
+    color: #ffa2ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }

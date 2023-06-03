@@ -1,0 +1,61 @@
+body.estilo1 {
+    background-color: red;
+  }
+  body.estilo2 {
+    background-color: blue; 
+  }
+  body.estilo3 {
+    background-color: green; 
+  }
+  .menu {
+    text-align: center;
+  }
+  .menu button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .menu button:hover {
+    background-color: grey;
+    color: white;
+  }
+  .menu button:focus {
+    outline: none;
+  }
+  .estilo1 button {
+    font-family: Arial, sans-serif;
+    background-color: rgb(55, 5, 97); 
+    color: white;
+  }
+  .estilo2 button {
+    font-family: Verdana, sans-serif;
+    background-color: green; 
+    color: white; 
+  }
+  .estilo3 button {
+    font-family: Impact, sans-serif;
+    background-color: rgb(0, 140, 255); 
+    color: white; 
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+  }
+
+  h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+  }
+  body{
+    background-image:url(images.avif) ;
+  }
